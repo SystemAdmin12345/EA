@@ -1,0 +1,3 @@
+[submodule "github-abc"]
+	path = github-abc
+	url = https://github.com/SystemAdmin12345/abc
