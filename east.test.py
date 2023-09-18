@@ -1,6 +1,6 @@
 """ISO"""
 
-while 1 == 1:
+while True:
 
     print("Hi")
 
