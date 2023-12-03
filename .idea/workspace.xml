@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfa2fe1d-8817-4392-993d-0a5c6c65cc68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/massive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/calc.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/massive.py" beforeDir="false" afterPath="$PROJECT_DIR$/massive.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

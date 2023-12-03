@@ -3,7 +3,9 @@ import random
 a1 = 0
 a2 = 0
 a3 = 0
-nextlevel = 100
+level = 0
+sec = 1
+next = 100
 
 
 def rng():
@@ -16,24 +18,26 @@ def rng():
 
 
 def activate():
-    global nextlevel
-    level = 0
-    sec = 1
-    nextlevel = 100*sec
-    print(f"Level: {level}/{nextlevel}")
+    global next
+    global level
+    global sec
+    next = 100*sec
+    print(f"Level: {level}/{next}")
     rng()
-    ans = input(f"What is {a1}+{a2}? ")
-    integeranswer = int(ans)
-    if integeranswer == a3:
-        print("Success")
-        level += 1
-    else:
-        print("Fail")
-    nextlevel = sec * 100
-    if level >= nextlevel:
+    try:
+        ans = input(f"What is {a1}+{a2}? ")
+        integer = int(ans)
+        if integer == a3:
+            print("Success")
+            level += 1
+        else:
+            print("Fail")
+        next = sec * 100
+    except ValueError:
+        print("Not an integer")
+    if level >= next:
         sec += 1
-        nextlevel = sec * 100
-
+        next = sec * 100
 
     activate()
 
