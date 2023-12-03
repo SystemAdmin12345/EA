@@ -12,8 +12,8 @@ def rng():
     global a1
     global a2
     global a3
-    a1 = random.randint(5, 10)
-    a2 = random.randint(5, 10)
+    a1 = random.randint(0, 10)
+    a2 = random.randint(0, 10)
     a3 = a1 + a2
 
 
