@@ -9,4 +9,4 @@ local function check(input)
     return (1)
 end
 
-print(check("One")
+print(check("One"))
